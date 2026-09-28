@@ -1,5 +1,5 @@
 # Виртуальное окружение
-venv/
+Lab2_KursDS/venv/
 ENV/
 env/
 
@@ -14,7 +14,7 @@ env/
 Thumbs.db
 
 # Служебные файлы IDE
-.idea/
+../.idea/
 
 # Логи приложения
 Logs/*.log

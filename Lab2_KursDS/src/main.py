@@ -6,7 +6,7 @@ import triangle
 
 LOG_FORMAT = "%(asctime)s | [%(levelname)-7s] | %(message)s"
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
-LOG_DIR = "Logs"
+LOG_DIR = "../Logs"
 LOG_FILE = os.path.join(LOG_DIR, "file_txt.log")
 
 DEFAULT_INVALID_COORDS = "(-1, -1)"

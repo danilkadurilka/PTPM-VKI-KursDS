@@ -10,7 +10,7 @@ import datetime
 import math
 import unittest
 
-import delivery
+from Lab2_KursDS.src import delivery
 
 #: Фиксированная дата отправки, зашитая в модуль delivery.
 SHIP_DATE = datetime.date(2026, 9, 3)

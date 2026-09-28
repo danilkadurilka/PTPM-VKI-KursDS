@@ -7,7 +7,7 @@ triangle.classify_triangle, triangle.compute_vertices.
 import math
 import unittest
 
-import triangle
+from Lab2_KursDS.src import triangle
 
 
 class ParseSidesTestCase(unittest.TestCase):
