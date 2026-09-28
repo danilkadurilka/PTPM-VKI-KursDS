@@ -14,7 +14,7 @@ env/
 Thumbs.db
 
 # Служебные файлы IDE
-.../.idea/
+**/.idea/
 
 # Логи приложения
 Logs/*.log
