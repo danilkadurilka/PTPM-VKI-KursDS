@@ -1,0 +1,60 @@
+# ============================================================================
+# Корневой .gitignore репозитория PTPM-VKI-KursDS
+# Действует для всего дерева файлов, включая .idea/ в корне репозитория.
+# ============================================================================
+
+# --- Служебные файлы IDE (PyCharm / IntelliJ / VS Code) ---
+.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# --- Виртуальные окружения ---
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+
+# --- Кэш компиляции Python ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Логи приложения ---
+*.log
+Logs/*.log
+
+# --- Артефакты тестирования и сборки ---
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache
+build/
+dist/
+*.egg-info/
+
+# --- Локальные системные файлы операционных систем ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+desktop.ini
+
+# --- Временные и резервные файлы редакторов ---
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
