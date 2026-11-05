@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Страница с некорректными постами</title></head>
+<body>
+    <!-- Некорректный id -->
+    <div class="comment" data-comment-id="abc">
+        <span class="username">charlie</span>
+        <div class="message">Плохой id.</div>
+    </div>
+    <!-- Нет username -->
+    <div class="comment" data-comment-id="201">
+        <div class="message">Без автора.</div>
+    </div>
+    <!-- Валидный пост -->
+    <div class="comment" data-comment-id="202">
+        <span class="username">dave</span>
+        <div class="message">Сообщение <i>с разметкой</i>.</div>
+    </div>
+</body>
+</html>
